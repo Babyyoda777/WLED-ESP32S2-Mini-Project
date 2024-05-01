@@ -7,6 +7,9 @@ WLED Smart Light Project - ESP32
 
 Start by plugging in your ESP32 board via USB to your computer. Then in Google Chrome or Microsoft Edge (not Safari or FireFox) visit https://espressif.github.io/esptool-js/ and press Connect under Program:
 
+![image](https://github.com/Babyyoda777/WLED-ESP32S2-Mini-Project/assets/80623330/a168e4fc-6f66-42b7-8dc9-ac340f6ce2a6)
+
+
 Next, upload the three files above, bootloader.bin, firmware.bin and partitions.bin. 
 
 bootloader.bin should be assigned flash address 0x1000
@@ -31,6 +34,7 @@ On your laptop, press the top right + and then detect lights. Then return to hom
 Next, go to the settings and press on LED Configuration. Change the drop down that says “WS28XX” to “PWM RGB” from the list, and set the GPIO numbers to be in this order: 2 then 1 then 0. 
 Now connect up your bread board like this: 
 
+![image](https://github.com/Babyyoda777/WLED-ESP32S2-Mini-Project/assets/80623330/c49157c6-c5f9-4bec-adce-606e78061995)
 
 
 Once its all connected, unplug and replug the ESP32, then wait for a minute before reconnecting to the app. That’s it, you can now control it wirelessly!
