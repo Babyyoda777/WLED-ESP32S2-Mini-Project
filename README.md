@@ -13,7 +13,9 @@ WLED Smart Light Project - ESP32
 Next, upload the three files above, bootloader.bin, firmware.bin and partitions.bin. 
 
 bootloader.bin should be assigned flash address 0x1000
+
 partitions.bin should be assigned flash address 0x8000
+
 firmware.bin should be assigned flash address 0x10000
 
 
